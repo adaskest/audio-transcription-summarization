@@ -9,6 +9,8 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = os.getenv(
 )
 
 def transcribe_google(gcs_uri: str, transcript_path: str) -> str:
+    os.makedirs(os.path.dirname(transcript_path), exist_ok=True)
+    
     try:
         client = speech.SpeechClient()
 

@@ -1,7 +1,11 @@
-#Venv file
+# venv file
 venv/
 __pycache__/
 
-#Credentials
+# Credentials
 .env
 credentials.json
+
+# Responses
+
+responses/*

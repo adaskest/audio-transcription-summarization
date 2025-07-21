@@ -6,7 +6,7 @@ load_dotenv()
 client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
 
 
-def summarize(text: str, summary_path: str = "responses/summary.txt") -> str:
+def summarize(text: str, summary_path: str) -> str:
     os.makedirs(os.path.dirname(summary_path), exist_ok=True)
     
     prompt = (
