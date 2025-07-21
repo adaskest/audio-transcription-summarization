@@ -1,11 +1,7 @@
-# venv file
 venv/
-__pycache__/
-
-# Credentials
 .env
 credentials.json
-
-# Responses
-
-responses/*
+responses/
+__pycache__/
+*.pyc
+.DS_Store
