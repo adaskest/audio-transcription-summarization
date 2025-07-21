@@ -23,8 +23,8 @@ This project transcribes Lithuanian-language audio using Google Cloud Speech-to-
 ### 1. Clone the repository and create a virtual environment
 
 ```bash
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/adaskest/audio-transcription-summarization.git
+cd audio-transcription-summarization
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
